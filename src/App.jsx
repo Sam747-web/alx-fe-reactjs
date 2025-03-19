@@ -1,11 +1,10 @@
 import React from "react";
-import Welcome from "./Components/Welcome";  
-
+import Welcome from "./Components/Welcome"; 
 
 function App() {
   return (
     <div>
-      <h1>Welcome to My React App</h1>
+      <Welcome />
     </div>
   );
 }
