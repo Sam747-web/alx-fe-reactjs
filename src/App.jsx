@@ -1,10 +1,14 @@
 import React from "react";
-import WelcomeMessage from "./Components/WelcomeMessage";  // 
+import Header from "./Components/Header";
+import MainContent from "./Components/MainContent";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
     <div>
-      <WelcomeMessage />
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
