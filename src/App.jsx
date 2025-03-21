@@ -1,10 +1,10 @@
 import React from "react";
-import Welcome from "./Components/Welcome"; 
+import WelcomeMessage from "./Components/WelcomeMessage";  // 
 
 function App() {
   return (
     <div>
-      <Welcome />
+      <WelcomeMessage />
     </div>
   );
 }
