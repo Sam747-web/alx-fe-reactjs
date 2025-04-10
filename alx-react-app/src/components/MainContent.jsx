@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react';
 
-function MainContent() {
-  return (
-    <main>
-      <p>I love to visit New York, Paris, and Tokyo.</p>
-    </main>
-  );
-}
+const MainContent = () => {
+  return <main><p>This is the main content area.</p></main>;
+};
 
 export default MainContent;

@@ -1,11 +1,7 @@
-import React from "react";
+import React from 'react';
 
-function Header() {
-  return (
-    <header>
-      <h1>My Favorite Cities</h1>
-    </header>
-  );
-}
+const Header = () => {
+  return <header><h1>React App Header</h1></header>;
+};
 
 export default Header;
